@@ -1,0 +1,7 @@
+{
+    "raptor": {
+        "browser-dependencies": [
+            "index.js"
+        ]
+    }
+}
