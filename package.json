@@ -1,41 +1,35 @@
 {
-  "name": "raptor-amd",
-  "version": "0.1.0-SNAPSHOT",
-  "description": "RaptorJS provides an AMD module loader that works in Node, Rhino and the web browser. It also includes various sub-modules to support building optimized web applications.",
-  "keywords": [
-    "AMD",
-    "modules",
-    "loader"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/raptorjs/raptor-amd.git"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
-  },
-  "author": "Patrick Steele-Idem <psteeleidem@ebay.com>",
-  "contributors": [
-    "Patrick Steele-Idem <psteeleidem@ebay.com>",
-    "Phillip Gates-Idem <phillip.idem@gmail.com>"
-  ],
-  "maintainers": "Patrick Steele-Idem <psteeleidem@ebay.com>",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "mocha": "~1.15.1",
-    "chai": "~1.8.1"
-  },
-  "license": "Apache License v2.0",
-  "bin": {},
-  "main": "lib/index.js",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "ebay": {},
-  "raptor": {
-    "browser-dependencies": [
-      { "package": "./lib/package.json" }
-    ]
-  }
+    "name": "raptor-amd",
+    "version": "0.1.0-SNAPSHOT",
+    "description": "RaptorJS provides an AMD module loader that works in Node, Rhino and the web browser. It also includes various sub-modules to support building optimized web applications.",
+    "keywords": [
+        "AMD",
+        "modules",
+        "loader"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raptorjs/raptor-amd.git"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
+    },
+    "author": "Patrick Steele-Idem <psteeleidem@ebay.com>",
+    "contributors": [
+        "Patrick Steele-Idem <psteeleidem@ebay.com>",
+        "Phillip Gates-Idem <phillip.idem@gmail.com>"
+    ],
+    "maintainers": "Patrick Steele-Idem <psteeleidem@ebay.com>",
+    "dependencies": {},
+    "devDependencies": {
+        "mocha": "~1.15.1",
+        "chai": "~1.8.1"
+    },
+    "license": "Apache License v2.0",
+    "bin": {},
+    "main": "lib/index.js",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/"
+    },
+    "ebay": {}
 }
