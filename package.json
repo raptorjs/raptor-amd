@@ -1,6 +1,5 @@
 {
     "name": "raptor-amd",
-    "version": "0.2.0-beta",
     "description": "RaptorJS provides an AMD module loader that works in Node, Rhino and the web browser. It also includes various sub-modules to support building optimized web applications.",
     "keywords": [
         "AMD",
@@ -31,5 +30,6 @@
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
     },
-    "ebay": {}
+    "ebay": {},
+    "version": "0.2.1-beta"
 }
