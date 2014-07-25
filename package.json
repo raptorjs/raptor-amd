@@ -1,6 +1,6 @@
 {
-    "name": "raptor-legacy-amd",
-    "description": "Module to support the migration from RaptorJS 2 (AMD) to RaptroJS 3 (CommonJS)",
+    "name": "raptor-amd",
+    "description": "Module to support AMD with RaptorJS 3 (CommonJS)",
     "keywords": [
         "AMD",
         "modules",
@@ -9,7 +9,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/raptorjs3/raptor-legacy-amd.git"
+        "url": "https://github.com/raptorjs3/raptor-amd.git"
     },
     "scripts": {
         "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
@@ -30,7 +30,7 @@
     },
     "license": "Apache License v2.0",
     "bin": {},
-    "main": "lib/raptor-legacy-amd.js",
+    "main": "lib/raptor-amd.js",
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
     },
