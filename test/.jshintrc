@@ -7,7 +7,6 @@
         "console",
         "describe",
         "xdescribe",
-        "expect",
         "beforeEach",
         "before",
         "after",
@@ -15,16 +14,21 @@
         "waitsFor",
         "runs",
         "raptor",
+        "$rset",
+        "$radd",
+        "$rget",
+        "$renv",
+        "$rwidgets",
         "$",
         "dust",
         "__rhinoHelpers",
         "Packages",
         "JavaAdapter",
-        "unescape"
+        "unescape",
+        "describe"
     ],
 
-    "globals": { 
-        "define": true, 
+    "globals": {
         "require": true
     },
 

@@ -1,5 +1,6 @@
 {
     "dependencies": [
-        "index.js"
+        "raptor-modules/client/optimizer.json",
+        "require-run: ./init"
     ]
 }

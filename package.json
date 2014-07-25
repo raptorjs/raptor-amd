@@ -1,14 +1,15 @@
 {
-    "name": "raptor-amd",
-    "description": "RaptorJS provides an AMD module loader that works in Node, Rhino and the web browser. It also includes various sub-modules to support building optimized web applications.",
+    "name": "raptor-legacy-amd",
+    "description": "Module to support the migration from RaptorJS 2 (AMD) to RaptroJS 3 (CommonJS)",
     "keywords": [
         "AMD",
         "modules",
-        "loader"
+        "loader",
+        "raptor"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/raptorjs3/raptor-amd.git"
+        "url": "https://github.com/raptorjs3/raptor-legacy-amd.git"
     },
     "scripts": {
         "test": "node_modules/.bin/mocha --ui bdd --reporter spec  ./test"
@@ -19,17 +20,20 @@
         "Phillip Gates-Idem <phillip.idem@gmail.com>"
     ],
     "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
-    "dependencies": {},
+    "dependencies": {
+        "raptor-modules": "^0.2.20-beta",
+        "raptor-util": "^0.2.4-beta"
+    },
     "devDependencies": {
         "mocha": "~1.15.1",
         "chai": "~1.8.1"
     },
     "license": "Apache License v2.0",
     "bin": {},
-    "main": "lib/raptor-amd.js",
+    "main": "lib/raptor-legacy-amd.js",
     "publishConfig": {
         "registry": "https://registry.npmjs.org/"
     },
     "ebay": {},
-    "version": "0.2.1-beta"
+    "version": "0.2.0-beta"
 }
