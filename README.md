@@ -19,7 +19,7 @@ This module can be enabled on the page by either requiring the module:
 require('raptor-amd');
 ```
 
-Alternatively, you can add the following dependency to page's `optimizer.json`:
+Alternatively, you can add the following dependency to your page's `optimizer.json`:
 
 ```json
 {
