@@ -1,6 +1,6 @@
 {
     "dependencies": [
         "raptor-modules/client/optimizer.json",
-        "require-run: ./init"
+        { "type": "require", "path": "./init", "run": true, "wait": false }
     ]
 }
