@@ -21,8 +21,8 @@
     ],
     "maintainers": "Patrick Steele-Idem <pnidem@gmail.com>",
     "dependencies": {
-        "raptor-modules": "^1.0.0-beta",
-        "raptor-util": "^1.0.0-beta"
+        "raptor-modules": "^1.0.0",
+        "raptor-util": "^1.0.0"
     },
     "devDependencies": {
         "mocha": "~1.15.1",
