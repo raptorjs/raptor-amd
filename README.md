@@ -1,6 +1,6 @@
 raptor-amd
 ==========
-This modules enabled AMD in the web browser when using RaptorJS 3 by bridging the [RaptorJS 3 CommonJS Module Loader](https://github.com/raptorjs3/raptor-modules) with an AMD module loader.
+This modules enabled AMD in the web browser when using RaptorJS 3 by bridging the [RaptorJS 3 CommonJS Module Loader](https://github.com/raptorjs/raptor-modules) with an AMD module loader.
 
 # Overview
 
