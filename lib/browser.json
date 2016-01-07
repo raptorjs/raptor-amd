@@ -1,0 +1,6 @@
+{
+    "dependencies": [
+        "raptor-modules/client/browser.json",
+        { "type": "require", "path": "./init", "run": true, "wait": false }
+    ]
+}
